@@ -1,0 +1,74 @@
+Documentação de portfólio (5 pontos): O README do GitHub deve conter todas as informações necessárias para apresentar o projeto como parte do seu portfólio, por exemplo:
+Título e descrição geral: informe do que se trata o projeto e as razões para o seu desenvolvimento.
+Demonstração de uso: descrições e imagens que mostram a funcionalidade do seu projeto
+Tecnologias utilizadas: linguagens de programação, frameworks ou bibliotecas que foram utilizadas no desenvolvimento do projeto.
+Informações sobre os dados originais: descrição dos atributos e outras informações
+Instruções para executar seu projeto.
+Contato: caso deseje, informe seu contato profissional.
+
+Covid-19 em Minas Gerais
+
+Relação Covid/Vacinação em Minas Gerais
+
+Este projeto tem como objetivo fornecer uma visualização interativa dos dados de Covid-19 em Minas Gerais, permitindo aos usuários filtrar e explorar informações específicas sobre casos novos, óbitos acumulados, óbitos novos e recuperados novos em diferentes municípios e períodos.
+
+Descrição do Projeto
+
+Os dados utilizados neste projeto foram obtidos do site do Ministério da Saúde: https://covid.saude.gov.br/. Embora os dados abranjam informações sobre todo o Brasil, este projeto foca especificamente nos dados de Minas Gerais. O objetivo é demonstrar a capacidade de filtrar, organizar e apresentar informações de forma clara e interativa, destacando a situação da Covid-19 nesse estado.
+
+O projeto utiliza o Streamlit para criar uma aplicação web interativa que carrega e processa dados de Covid-19 para o estado de Minas Gerais. Os usuários podem filtrar os dados por intervalo de datas e selecionar municípios específicos para visualizar um resumo dos dados filtrados.
+
+Funcionalidades
+
+Filtragem por Intervalo de Datas: Permite selecionar um período específico para visualizar os dados.
+Seleção de Municípios: Filtra os dados por municípios específicos.
+Resumo dos Dados Filtrados: Exibe um resumo com a soma dos casos novos, óbitos acumulados, óbitos novos e recuperados novos em três colunas diferentes.
+Visualização dos Dados Filtrados: Mostra uma tabela completa com os dados que atendem aos critérios de filtro.
+
+Tecnologias Utilizadas
+
+Python: Linguagem principal utilizada para o desenvolvimento do projeto.
+Pandas: Biblioteca utilizada para manipulação e análise de dados.
+Streamlit: Framework utilizado para a criação da aplicação web interativa.
+
+Estrutura do Projeto
+├── app.py                      # Código principal da aplicação
+├── painelcovidBR2020a2024.csv  # Arquivo CSV com os dados de Covid-19
+├── requirements.txt            # Lista de dependências do projeto
+└── README.md                   # Descrição do projeto
+
+Instalação
+Clone o repositório para o seu ambiente local:
+
+git clone https://github.com/seu-usuario/seu-repositorio.git
+Navegue até o diretório do projeto:
+
+cd 'seu-repositorio'
+Crie um ambiente virtual (opcional, mas recomendado):
+
+python -m venv env
+
+Ative o ambiente virtual:
+
+No Windows:
+
+.\env\Scripts\activate
+No macOS e Linux:
+source env/bin/activate
+
+Instale as dependências necessárias:
+
+pip install -r requirements.txt
+
+Executando a Aplicação
+Execute o comando abaixo para iniciar a aplicação Streamlit:
+
+streamlit run app.py
+
+A aplicação será aberta automaticamente no seu navegador padrão. Se isso não ocorrer, acesse o seguinte endereço:
+http://localhost:8501
+
+Contato
+Raul Antônio Horta Campos - rau1c4mpos@gmail.com
+
+Link do Projeto: https://github.com/seu-usuario/seu-repositorio ---------------------------ATENÇÃO!-------

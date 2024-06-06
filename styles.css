@@ -1,0 +1,62 @@
+/* Covid19 em Minas Gerais h1{
+    text-align: center;
+    border: 1px solid white;
+}*/
+
+/* h2 FILTROS +PROJETO DESENVOLVE ITABIRA */
+/* h3 PERÍODO MUNICÍPIOS + RESUMO / MAPA / % / CASOS NOVOS / DADOS FILTRADOS */
+*,h3,h2{
+    text-align: center;
+    padding: 0px;
+}
+h3{
+    font-size: 1em;
+}
+p{
+    text-align: center;
+}
+.mapboxgl-canvas{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.st-emotion-cache-ocqkz7.e1f1d6gn5{
+    border: 1px solid white;
+    margin-top: -50px;
+    margin-left: -50px;
+    padding: 0px;
+}
+
+.block-container .st-emotion-cache-1jicfl2 .ea3mdgi5{
+    margin-top: -100px;
+}
+.title{
+    font-size: 2em;
+    font-weight: bold;
+}
+#root>div:nth-child(1)>div.withScreencast>div>div>div>section.main.st-emotion-cache-bm2z3a.ea3mdgi8>div.block-container.st-emotion-cache-1jicfl2.ea3mdgi5>div>div>div>div.st-emotion-cache-ocqkz7.e1f1d6gn5>div:nth-child(1)>div>div>div>div.st-emotion-cache-0.e1f1d6gn0,/*cartão2*/ #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-bm2z3a.ea3mdgi8 > div.block-container.st-emotion-cache-1jicfl2.ea3mdgi5 > div > div > div > div.st-emotion-cache-ocqkz7.e1f1d6gn5 > div:nth-child(2) > div > div > div > div.st-emotion-cache-0.e1f1d6gn0 > div > div,/*cartão3*/#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-bm2z3a.ea3mdgi8 > div.block-container.st-emotion-cache-1jicfl2.ea3mdgi5 > div > div > div > div.st-emotion-cache-ocqkz7.e1f1d6gn5 > div:nth-child(3) > div > div > div > div.st-emotion-cache-0.e1f1d6gn0 > div > div {
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.568); /* Sombra */
+    border: 1px solid #bfbfbf; /* Borda branca */
+    padding: 10px; /* Espaçamento interno */
+    max-height: 196px;
+    /* cartão: Total de Casos novos */
+}
+/* coluna do meio*/
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-bm2z3a.ea3mdgi8 > div.block-container.st-emotion-cache-1jicfl2.ea3mdgi5 > div > div > div > div.st-emotion-cache-ocqkz7.e1f1d6gn5 > div:nth-child(2) > div > div > div{
+    width: fit-content;
+}
+/*bloco verde Total de Óbitos */
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-bm2z3a.ea3mdgi8 > div.block-container.st-emotion-cache-1jicfl2.ea3mdgi5 > div > div > div > div.st-emotion-cache-ocqkz7.e1f1d6gn5 > div:nth-child(3) > div > div > div > div.st-emotion-cache-0.e1f1d6gn0 > div > div, #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-bm2z3a.ea3mdgi8 > div.block-container.st-emotion-cache-1jicfl2.ea3mdgi5 > div > div > div > div.st-emotion-cache-ocqkz7.e1f1d6gn5 > div:nth-child(2) > div > div > div > div.st-emotion-cache-0.e1f1d6gn0 > div > div, #root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-bm2z3a.ea3mdgi8 > div.block-container.st-emotion-cache-1jicfl2.ea3mdgi5 > div > div > div > div.st-emotion-cache-ocqkz7.e1f1d6gn5 > div:nth-child(1) > div > div > div > div.st-emotion-cache-0.e1f1d6gn0{
+    max-width: 232px;
+    padding:0;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+div.mapboxgl-canvas-container.mapboxgl-interactive.mapboxgl-touch-drag-pan.mapboxgl-touch-zoom-rotate > canvas{
+    border-radius: 30%;
+    margin-left: auto; margin-right: auto;
+    place-items:center;
+    /* mapas */
+}
